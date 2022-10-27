@@ -749,6 +749,8 @@ color: var(--color-background)
 background-color: var(--color-accent);
 }
 
+/* Modal */
+
 .backdrop {
     background: rgba(0, 0, 0, 0.2);
     position: fixed;
@@ -784,6 +786,7 @@ background-color: var(--color-accent);
     align-items: center;
     margin-top: 8px;
     margin-left: 490px;
+    cursor: pointer;
 }
 
 .modal-close-icon{
@@ -794,4 +797,36 @@ background-color: var(--color-accent);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+}
+
+.contact-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-top: 2px;
+    margin-bottom: 12px;
+}
+
+.form-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;   
+    letter-spacing: 0.01em;
+    color: var(--text-color-optional);
+    
+}
+
+.form-control {
+
+}
+
+.form-input {
+
+}
+
+.form-icon {
+
 }
