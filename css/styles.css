@@ -884,8 +884,14 @@ background-color: var(--color-accent);
 }
 
 .checkbox-icon {
-    fill: var(--text-color);
- 
+    border: 2px solid var(--text-color);
+    border-radius: 1px;
+    transition: background-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-input:checked + .checkbox-icon {
+    background-color: var(--color-accent);
+    border: none;
 }
 
 .checkbox-label {
