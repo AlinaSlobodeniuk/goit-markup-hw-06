@@ -753,6 +753,7 @@ background-color: var(--color-accent);
 
 .e-mail-input {
 display: flex;
+
 }
 
 .footer-label {
@@ -761,7 +762,8 @@ display: flex;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-background) #FFFFFF;
+    color: var(--color-background);
+    margin-left: 93px;
     
 }
 
@@ -973,4 +975,31 @@ display: flex;
 
 .checkbox-link{
     color: var(--color-accent);
+}
+
+.form-button{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 164px;
+    top: 491px;
+    background: var(--color-accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--color-background);
+    transition: background-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover{
+    background-color: #188CE8;
 }
