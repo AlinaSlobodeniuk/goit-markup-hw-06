@@ -972,11 +972,7 @@ display: flex;
 
 .checkbox-input {
     appearance: none;
-    
-}
-
-.checkbox-input:focus{
-    border-color: var(--color-accent)
+    transition: border-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-box:focus-within .checkbox-icon{
@@ -986,7 +982,7 @@ display: flex;
 .checkbox-icon {
     border: 2px solid var(--text-color);
     border-radius: 1px;
-    transition: background-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1), border-color var(--timing-duration) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-input:checked + .checkbox-icon {
@@ -1012,7 +1008,7 @@ display: flex;
 .form-button{
     width: 200px;
     height: 50px;
-    margin: 30px auto 0 auto;
+    margin: 10px auto 0 auto;
     background: var(--color-accent);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
