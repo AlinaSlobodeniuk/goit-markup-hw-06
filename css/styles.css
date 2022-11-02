@@ -753,7 +753,7 @@ background-color: var(--color-accent);
 
 .e-mail-input {
 display: flex;
-
+margin-left: auto;
 }
 
 .footer-form{
@@ -767,14 +767,11 @@ display: flex;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-background);
-    margin-left: 93px;
-    
+    color: var(--color-background); 
 }
 
 .form-box{
     display: flex;
-    margin-left: 93px;
     margin-top: 20px;
 }
 
